@@ -24,3 +24,27 @@ carros = ["fusca", "gol", "palio", "uno"]
 print("lista de carros:")
 for carro in carros:
     print(carro)
+
+#FILMES
+
+filmes = ["Matri", "Interestelar",
+          "Vingadores", "Star Wars",
+          "O Senhor dos Anéis"]
+
+print("Meus filmes favoritos:")
+for filme in filmes:
+    print(filme)
+
+
+#Lista
+lista = []
+
+while True:
+    item = input('>>')
+    if item == 'fim':
+        lista.append(item)
+        print(f'a lista tem {len(item)}')
+        break
+    else:
+        lista.append(item)
+        print(f'a lista tem {len(lista)}')
